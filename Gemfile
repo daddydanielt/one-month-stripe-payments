@@ -6,7 +6,6 @@ ruby '2.1.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
 
-
 gem 'sqlite3', group: [:development, :test]
 
 #--->
@@ -18,6 +17,8 @@ end
 #gem 'rails_12factor', group: :production
 #--->
 
+#use Bootstrap for improving the look and feel
+gem 'bootstrap-sass'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
