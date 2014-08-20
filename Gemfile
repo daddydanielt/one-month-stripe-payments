@@ -20,6 +20,13 @@ end
 #use Bootstrap for improving the look and feel
 gem 'bootstrap-sass'
 
+#Add Stripe for payment processing
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+
+#Add figaro for securely manage crendentials
+gem 'figaro' 
+#=========================>>
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
